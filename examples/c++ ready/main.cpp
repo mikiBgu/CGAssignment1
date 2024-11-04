@@ -9,7 +9,7 @@ int main(void)
     int width, height, comps;
     int req_comps = 4;
     unsigned char * buffer = stbi_load(filepath.c_str(), &width, &height, &comps, req_comps);
-    int result = stbi_write_png("res/textures/new_plane.png", width, height, 3, buffer, width * comps);
+    int result = stbi_write_png("res/textures/new_plane.png", width, height, req_comps, buffer, width * comps);
     std::cout << result << std::endl;
     return 0;
 }

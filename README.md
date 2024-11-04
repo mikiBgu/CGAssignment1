@@ -9,7 +9,7 @@
 1. Install `Chocolatey` from: \
    https://chocolatey.org/install
 
-2. After finishing the installation run the following command:
+2. After finishing the installation run the following command on the CMD (Run as adimistrator):
    ```
    choco install make
    ```
@@ -17,7 +17,7 @@
 3. To install the C/C++ compilers go to the website: \
    https://code.visualstudio.com/docs/cpp/config-mingw
 
-4. Follow the guide on to install the C/C++ Compiler and validate that they are installed by running the commands:
+4. Follow the guide on how to install the C/C++ Compiler and validate that they are installed by running the commands on the CMD:
    ```
    gcc --version
    g++ --version
@@ -26,7 +26,7 @@
 
 ### For MacOS:
 
-1. Install `Xcode tools` using the command:
+1. Install `Xcode tools` using the command on the Terminal:
    ```
    xcode-select --install
    ```
@@ -34,7 +34,7 @@
 2. (Optional) Install `brew` from: \
    https://brew.sh/
 
-3. (Optional) Install with `brew` the `GLFW` library using the command:
+3. (Optional) Install with `brew` the `GLFW` library using the command on the Terminal:
    ```
    brew install glfw
    ```
@@ -47,7 +47,7 @@
 
 1. Open the CMD/Terminal
 
-2. Navigate to the project folder using "cd" commands
+2. Navigate to the project folder using `cd` commands
 
 3. Run the command:
    ```
@@ -66,10 +66,21 @@
 1. Download Visual Studio Code from: \
    https://code.visualstudio.com/download
 
-2. Download the `Makefile Tools Extension` from the Visual Studio Code Extensions or from: \
+2. Download the `C/C++ Extension Pack` from the Visual Studio Code Extensions or from:
+   https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack
+
+3. Download the `Makefile Tools Extension` from the Visual Studio Code Extensions or from: \
    https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
 
-3. Configure the `Makefile Tools Extension` to compile the engine using the available [Makefile](Makefile).
+4. Configure the `Makefile Tools Extension` to compile the engine: using the available [Makefile](Makefile):
+
+   1. Edit the `Makefile` option, and set `The path to the makefile of the project` as: `Makefile`.
+
+   2. Click on the `...` button near the `Play` button, and then choose: `Makefile:Configure`.
+
+   3. Edit the `Lunch target` option, and choose the first option: `main()`.
+
+   4. Click on the `Play` button and validate that the program compiles and runs successfully.
 
 `Notice:` With this tool you can run the OpenGL in Debugging mode as well.
 
