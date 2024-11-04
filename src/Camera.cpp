@@ -7,7 +7,7 @@ void Camera::SetOrthographic(float near, float far)
 
     // Rest Projection and View matrices
     m_Projection = glm::ortho(m_Left, m_Right, m_Bottom, m_Top, near, far);
-    m_View = lookAt(m_Position, m_Position + m_Orientation, m_Up);
+    m_View = glm::lookAt(m_Position, m_Position + m_Orientation, m_Up);
 }
 
 /////////////////////
