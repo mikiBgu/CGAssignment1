@@ -101,7 +101,7 @@ void Camera::EnableInputs(GLFWwindow* window)
     // Handle cursor buttons
     glfwSetMouseButtonCallback(window, (void(*)(GLFWwindow *, int, int, int)) MouseButtonCallback);
 
-    // Handle cursor postion and inputs on motion
+    // Handle cursor position and inputs on motion
     glfwSetCursorPosCallback(window , (void(*)(GLFWwindow *, double, double)) CursorPosCallback);
 
     // Handle scroll inputs
