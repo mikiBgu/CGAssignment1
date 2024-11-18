@@ -91,7 +91,7 @@ The MacOS tends to block the file: "libglfw.3.dylib" which is crucial for runnin
 To remove the block, open the MacOS "Settings", go to "Privacy & Security", scroll down until you find the "libglfw.3.dylib" and chose enable permission to it.
 
 
-## Useful guides for building the OpenGL engin:
+## Useful guides for building the OpenGL Engine:
 
 - For Windows: \
   https://www.youtube.com/watch?v=hRInLNR9iRg
