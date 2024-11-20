@@ -123,9 +123,11 @@ To remove the block, open the MacOS "Settings", go to "Privacy & Security", scro
 
 ## Useful YouTube guides:
 
-- The Cherno: https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
+- The Cherno: \
+  https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
 
-- Victor Gordan: https://www.youtube.com/watch?v=XpBGwZNyUh0&list=PLPaoO-vpZnumdcb4tZc4x5Q-v7CkrQ6M-
+- Victor Gordan: \
+  https://www.youtube.com/watch?v=XpBGwZNyUh0&list=PLPaoO-vpZnumdcb4tZc4x5Q-v7CkrQ6M-
 
 
 ## Library sources:
