@@ -6,7 +6,7 @@
 
 ### For Windows:
 
-1. Install `Chocolatey` from: \
+1. Install `Chocolatey` from following website: \
    https://chocolatey.org/install
 
 2. After finishing the installation run the following command on the CMD (Run as adimistrator):
@@ -14,10 +14,10 @@
    choco install make
    ```
 
-3. To install the C/C++ compilers go to the website: \
+3. To install the C/C++ compilers go to the following website: \
    https://code.visualstudio.com/docs/cpp/config-mingw
 
-4. Follow the guide on how to install the C/C++ Compiler and validate that they are installed by running the commands on the CMD:
+4. Follow the guide on how to install the C/C++ Compiler and validate that they are installed by running the following commands on the CMD:
    ```
    gcc --version
    g++ --version
@@ -26,35 +26,53 @@
 
 ### For MacOS:
 
-1. Install `Xcode tools` using the command on the Terminal:
+1. Install `Xcode Command Line Tools` using the following command on the Terminal:
    ```
    xcode-select --install
    ```
 
-2. (Optional) Install `brew` from: \
+2. (Optional) Install `brew` from following website: \
    https://brew.sh/
 
-3. (Optional) Install with `brew` the `GLFW` library using the command on the Terminal:
+3. (Optional) Install with `brew` the `GLFW` library using the following command on the Terminal:
    ```
    brew install glfw
    ```
 
 
-## How to compile and run the OpenGL engine using the Makefile:
+## For Linux:
+
+1. (Optional) Update the Linux OS using the following command on the Terminal:
+   ```
+   sudo apt update
+   ```
+
+2. Install `g++` using the following command on the Terminal:
+   ```
+   sudo apt install build-essential g++
+   ```
+
+3. Install `OpenGL` and `GLFW` using the following command on the Terminal:
+   ```
+   sudo apt install libgl-dev libglfw3-dev
+   ```
+
+
+## How to compile and run the OpenGL Engine using the Makefile:
 
 
 ### Using the CMD/Terminal:
 
-1. Open the CMD/Terminal
+1. Open the CMD/Terminal.
 
-2. Navigate to the project folder using `cd` commands
+2. Navigate to the project folder using `cd` commands.
 
-3. Run the command:
+3. Run the following command:
    ```
    make
    ```
 
-4. Run the commands:
+4. Run the following commands:
    ```
    cd bin
    ./main
@@ -85,10 +103,10 @@
 `Notice:` With this tool you can run the OpenGL in Debugging mode as well.
 
 
-## MacOS known issue with "libglfw.3.dylib" file
+## MacOS known issue with "libglfw.3.dylib" file:
 
-The MacOS tends to block the file: "libglfw.3.dylib" which is crucial for running the OpenGL engine. 
-To remove the block, open the MacOS "Settings", go to "Privacy & Security", scroll down until you find the "libglfw.3.dylib" and chose enable permission to it.
+The MacOS tends to block the file: "libglfw.3.dylib" which is crucial for running the OpenGL Engine. 
+To remove the block, open the MacOS "Settings", go to "Privacy & Security", scroll down until you find the "libglfw.3.dylib" and choose to enable permission for it.
 
 
 ## Useful guides for building the OpenGL Engine:
@@ -99,8 +117,11 @@ To remove the block, open the MacOS "Settings", go to "Privacy & Security", scro
 - For MacOS: \
   https://www.youtube.com/watch?v=7-dL6a5_B3I
 
+- For Linux: \
+  https://www.youtube.com/watch?v=JxDLGHil-Cw
 
-## Useful Youtube guides:
+
+## Useful YouTube guides:
 
 - The Cherno: https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
 
