@@ -41,7 +41,7 @@ ${workspaceFolder}/bin/glad.o: ${workspaceFolder}/src/glad.c | $(workspaceFolder
 build: $(OBJ_FILES) | $(workspaceFolder)/bin
 	$(CPPFLAGS) $(CLIBS) $(OBJ_FILES) -o ${workspaceFolder}/bin/main $(LDFLAGS)
 
-# Copy resources (MacOS)
+# Copy library and resources (MacOS)
 copy_lib_m:
 	@echo "Copying library for MacOS..."
 	cp -rf ${workspaceFolder}/lib/macOS/libglfw.3.dylib ${workspaceFolder}/bin/libglfw.3.dylib
@@ -50,7 +50,7 @@ copy_res_m:
 	@echo "Copying resources for MacOS..."
 	mkdir -p ${workspaceFolder}/bin/res && cp -rf ${workspaceFolder}/src/res/* ${workspaceFolder}/bin/res
 
-# Copy resources (Windows)
+# Copy library and resources (Windows)
 copy_lib_w:
 	@echo "Copying library for Windows..."
 	copy /Y ${workspaceFolder}\lib\windows\glfw3.dll ${workspaceFolder}\bin\glfw3.dll
@@ -59,10 +59,10 @@ copy_res_w:
 	@echo "Copying resources for Windows..."
 	xcopy /E /I /Y ${workspaceFolder}\src\res ${workspaceFolder}\bin\res
 
-# Copy resources (Linux)
+# Copy library and resources (Linux)
 copy_lib_l:
-	@echo "Copying library for Linux..."
-	cp -rf ${workspaceFolder}/lib/linux/* ${workspaceFolder}/bin/
+	@echo "Copying library for Linux... [Skipped!]"
+	# cp -rf ${workspaceFolder}/lib/linux/* ${workspaceFolder}/bin/
 
 copy_res_l:
 	@echo "Copying resources for Linux..."

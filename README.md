@@ -54,7 +54,7 @@
 
 3. Install `OpenGL` and `GLFW` using the following command on the Terminal:
    ```
-   sudo apt install libgl-dev libglfw3-dev
+   sudo apt install libgl-dev libglfw3-dev libxi-dev
    ```
 
 
