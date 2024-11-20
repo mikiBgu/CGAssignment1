@@ -84,7 +84,7 @@
 1. Download Visual Studio Code from: \
    https://code.visualstudio.com/download
 
-2. Download the `C/C++ Extension Pack` from the Visual Studio Code Extensions or from:
+2. Download the `C/C++ Extension Pack` from the Visual Studio Code Extensions or from: \
    https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack
 
 3. Download the `Makefile Tools Extension` from the Visual Studio Code Extensions or from: \
