@@ -62,7 +62,7 @@ copy_res_w:
 # Copy resources (Linux)
 copy_lib_l:
 	@echo "Copying library for Linux..."
-    cp -rf ${workspaceFolder}/lib/linux/* ${workspaceFolder}/bin/
+	cp -rf ${workspaceFolder}/lib/linux/* ${workspaceFolder}/bin/
 
 copy_res_l:
 	@echo "Copying resources for Linux..."
