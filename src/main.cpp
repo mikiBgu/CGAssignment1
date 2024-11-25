@@ -36,6 +36,8 @@ unsigned int indices[] = {
     2, 3, 0
 };
 
+/*mikis commit */
+
 int main(int argc, char* argv[])
 {
     GLFWwindow* window;
